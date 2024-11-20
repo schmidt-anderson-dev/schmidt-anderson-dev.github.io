@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Z3JCDJ6TGS"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Z3JCDJ6TGS");
+    </script>
+
     <link rel="icon" type="image/x-icon" href="sa-logo.png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -73,7 +88,7 @@
         Exclusively Tailored Software.
       </h1>
       <span
-        onclick="window.location.href='mailto:anderson@schmidtanderson.com'"
+        onclick="window.location.href='mailto:anderson@schmidtanderson.com'; gtag('event', 'conversion', { send_to: 'AW-11471593249/w3kjCI2Et-wZEKG-it4q', });"
         style="
           color: white;
           font-family: Oswald;
